@@ -1,1 +1,1 @@
-# odin-fundamentals-1
+# odin-fundamentals
