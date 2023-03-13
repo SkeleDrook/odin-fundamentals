@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Exercise</title>
+	</head>
+	<script>
+		// This will work
+		console.log(add7(10))
+		function add7(number) {
+			return number * 7;
+		}
+		// This won't (because arrow functions are arrow expressions)
+		// console.log(add7(10))
+		// let add7 = number => number + 7
+		let multiply = (a, b) => a * b
+		console.log(multiply(5, 10))
+		let capitalize = text => text.charAt(0).toUpperCase() + text.slice(1)
+		console.log(capitalize("this is a text all small."))
+		console.log(capitalize("THIS IS A TEXT ALL BIG"))
+		console.log(capitalize("this is A TEXT halfHALF"))
+		console.log(capitalize("THIS IS A text HAlFhalf"))
+		let lastLetter = text => text.slice(-1)
+		console.log(lastLetter("The last letter of this sentence is A"))
+		console.log(lastLetter("abcd"))
+	</script>
+
+</html>
